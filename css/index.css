@@ -231,9 +231,9 @@ nav a:hover {
     transition: .4s;
 }
 
-/* input {
+.radio {
     display: none;
-} */
+}
 
 .slides {
     width: 600%;
