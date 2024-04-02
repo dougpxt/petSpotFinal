@@ -1,0 +1,240 @@
+:root {
+    --bkColor : rgb(238, 102, 62);;
+   
+    --anime : block;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(to bottom,#FFF 0%,#EE663E 100%);
+    background-attachment: fixed;
+    
+    
+
+}
+
+main{
+    max-width: 1512px;
+    width: 100vw;
+    
+    min-height: 100vh;
+}
+
+.menu-topo {
+    /* position: fixed; */
+    height: 80px;
+    width: 100%;
+    background-color: var(--bkColor);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    display: none;
+  
+    
+}
+
+.menu-topo img{
+    width: 50px;
+    height: 40px;
+    
+}
+#nav-menu{
+    background-color: var(--bkColor);
+    padding-top: 15px;
+    display: var(--anime);
+    height: 10vh;
+
+}
+nav ul{
+   
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 60px;
+    
+    list-style: none;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+    
+}
+
+nav ul li{
+    color: white;
+    /* border: 1px solid wheat; */
+}
+
+ul li img {
+    width: 70px;
+    height: auto;
+    border: none;
+}
+   
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.div-panel-usuario{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(250, 134, 100);
+    /* margin-top: 10%; */
+
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 0 2%;
+}
+
+.div-foto-usuario{
+   min-width: 50px;
+   height: 50px;
+   margin-top: 15px;
+    border-radius: 50%;
+    background-image: url(../img/imagens/stephanie.jpeg);
+    background-size: cover;
+   
+}
+.div-status{
+    
+    /* min-width: 80px; */
+    
+    border-radius: 20px;
+    min-width: 80px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+
+.div-status span{
+    color: yellow;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+    
+    width: 150px;
+   
+    
+}
+.div-status span:nth-child(1){
+    color: white;
+}
+.div-status span:nth-child(2){
+    color: yellowgreen
+}
+.div-pesquisa-usuario{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100%;
+    
+    line-height: 30px;
+    
+}
+
+.div-pesquisa-usuario input{
+    line-height: 30px;
+    padding-left: 10px;
+    width: 30%;
+    border-radius: 5px;
+    
+   
+    
+}
+
+.div-contaner-conteudo{
+    /* background-color: wheat; */
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(250, 134, 100);
+}
+
+.div-conteudo-menu-lateral{
+  
+    min-width: 15%; 
+   /* background-color: var(--bkColor); */
+   height: 100%;
+   background-color: rgb(250, 134, 100);
+   
+   display: none;
+}
+
+.div-conteudo-menu-lateral ul{
+    color: white;
+    /* font-size: 1.2srem; */
+    padding-left: 15%;
+    margin-top: 10%;
+}
+
+.div-conteudo-menu-lateral ul li{
+    color: white;
+    /* font-size: 1.21400rem ; */
+    list-style: none;
+    line-height: 1.8em;
+    margin-bottom: 3%;
+}
+
+.div-conteudo-menu-lateral ul li a{
+    text-decoration: none;
+    color: white;
+    /* font-size: clamp(1.2rem,20vw + 0.1rem,1.9rem); */
+    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid var(--bkColor);
+}
+
+.div-conteudo-menu-lateral ul li a:hover{
+    background-color:var(--bkColor);
+}
+
+.div-conteudo-menu-lateral{
+    color: white;
+    /* font-size: 1.5em; */
+}
+.div-iframe-conteudo{
+    width: 100%;
+    height: 100%;
+    /* background-color: var(--bkColor); */
+    padding: 20px 20px;
+    background-color: rgb(250, 134, 100);
+}
+
+.div-iframe{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* padding: 20px 20px; */
+}
+
+.div-iframe iframe{
+    width: 100%;
+    height: 100%;
+
+}
+

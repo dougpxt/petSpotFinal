@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+header{
+    display: flex;
+    height: 120px;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 16px 16px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+   
+    border: none;
+    
+}
+
+.adocao-menu{
+   
+    width: 80px;
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+    cursor: pointer;
+
+}
+
+.adocao-menu img{
+    width:100%;
+    height: auto;
+    padding: 14px 14px;
+    min-width: 70px;
+}
+
+.contaner-lista-adocao{
+  
+   border: none;
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 120px;
+   
+}
+
+.card-lista-adocao{
+    width: 100%;
+    max-width: 33%;
+    height: 100 px;
+     display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+   
+   
+}
+
+.card-adocao-foto {
+    width: 150px;
+    height: 100px;
+    min-width: 100px;
+    margin-left: 15px;
+    border-radius: 10px;
+    
+}
+
+.card-adocao-foto img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.card-adocao-descricao {
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid black; */
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+ 
+    padding: 4px;
+    justify-content: center;
+    background-color: rgba(232, 111, 67, 0.5);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.card-adocao-descricao span{
+    font-size: 0.8em;
+    font-weight: bold;
+    color:black;
+
+}
+
+#desc-nome{
+    color: orangered;
+    font-size: 1.3em;
+}
+
+
+
+@media(max-width:960px){
+
+    .contaner-lista-adocao{
+  
+        flex-direction: row;
+        
+    }
+
+    .card-lista-adocao{
+        width: 100%;
+        max-width: 50%;
+       
+    }
+
+}
+
+@media(max-width:600px){
+
+    .contaner-lista-adocao{
+  
+        flex-direction: column;
+        
+    }
+
+    .card-lista-adocao{
+        width: 100%;
+        max-width: 100%;
+       
+    }
+
+} */
+

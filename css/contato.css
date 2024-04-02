@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-contato{
+    background-color: rgba(168, 167, 167, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#div-modal{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    background-image: url(../img/backgroundFormas.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.contatoInfo{
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-top: 25px;
+    gap: 8px;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px rgb(42, 42, 42);
+    font-family: 'Baloo', sans-serif;
+}
+
+.contato-modal-center-dir img{
+    inline-size: 36px;
+    align-items:flex-start;
+    display: flex;
+    justify-content: center;
+    display: inline;
+    margin-right: 5px;
+}
+
+.contato-contane{
+    width: 900px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    position: relative;
+    max-width: 90%;
+    border-radius: 20px;
+}
+
+.contato-modal-dir{
+   height: 100%;
+   /* border: 1px solid black; */
+   width: 300px;
+   /* background:linear-gradient(to bottom,#FFF 20%,#EE663E 80%); */
+   /* background-color: rgb(238, 102, 62); */
+   /* background:linear-gradient(to bottom,#EE663E 50%,#F69A4B 50%); */
+   border-top-right-radius:20px;
+   border-bottom-right-radius:20px;
+}
+
+.contato-modal-esq{
+    height: 100%;
+    
+    width: 70%;
+    background-color: white
+
+}
+
+#contato-text p{
+    font-family: 'Baloo 2';
+    font-size: 24;
+    font-variation-settings:ariation ('ital', 0) ('wght', 400);
+}
+.contato-modal-center-dir{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    padding-top: 40px;
+    right: 0;
+    top: 100px;
+    background:linear-gradient(to bottom,#FFF 0%,#EE663E 100%);
+    border-bottom-left-radius: 20px;
+    /* background:linear-gradient(to bottom,#EE663E 0%,#F69A4B 100%); */
+    /* box-shadow: 0px 0px 2px rgb(70, 70, 70) */
+}
+
+.center-enfeite{
+    width: 60px;
+    height: 60px;
+    /* border: 1px solid black; */
+    background-color: rgb(238, 102, 62);
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    
+}
+
+.center-enfeite h3{
+    text-align: center;
+    margin-top: 7px;
+    padding-top: 12px;
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px rgb(70, 70, 70);
+}
+
+.contato-formulario{
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  padding: 40px 100px;
+  
+}
+
+.contato-formulario input{
+    margin-bottom: 20px;
+    line-height: 26px;
+    padding-left: 10px;
+    font-family: 'Baloo', sans-serif;
+    /* box-shadow: 1px 1px rgb(168, 167, 167); */
+}
+
+.contato-formulario h1{
+    margin-bottom: 15px;
+    font-size: 2.9rem;
+    margin-top: 20px;
+    font-family: 'Baloo', sans-serif;
+    color:  rgb(238, 102, 62);
+    text-shadow: 1px 1px 2px rgb(70, 70, 70);
+}
+
+.contato-formulario p{
+    margin-bottom: 15px;
+    font-size: .9rem;
+    font-family: 'Baloo', sans-serif;
+    text-shadow: 1px 1px 2px rgb(202, 202, 202);
+    
+}
+
+.contato-formulario textarea{
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: 'Baloo', sans-serif;
+    box-shadow: 1px 1px rgb(168, 167, 167);
+}
+
+.contato-formulario button{
+    line-height: 40px;
+    background-color: rgb(238, 102, 62);
+    color: white;
+    /* font-family: "Hammersmith", sans-serif; */
+    font-family: 'Baloo', sans-serif;
+    font-weight: bold;
+    font-size: .8rem ;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(200, 200, 200);
+    text-shadow: 1px 1px 2px rgb(168, 167, 167);
+    
+}
+
+
+#email{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 15px;
+    gap: 8px;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow:1px 1px 2px rgb(42, 42, 42);
+    font-family: 'Baloo', sans-serif;
+}
+
+#contato{
+    padding-top: 32px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow:1px 1px 2px rgb(42, 42, 42);
+    font-family: 'Baloo', sans-serif;
+}
+
+#endereco{
+    padding-top: 32px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow:1px 1px 2px rgb(42, 42, 42);
+    font-family: 'Baloo', sans-serif;
+}
+
+#horario{
+    padding-top: 32px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #FFF;
+    text-shadow:1px 1px 2px rgb(42, 42, 42);
+    font-family: 'Baloo', sans-serif;
+}
+
+.contatos img{
+    display: inline;
+   
+}

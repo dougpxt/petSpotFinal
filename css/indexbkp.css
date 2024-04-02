@@ -1,0 +1,492 @@
+/* CSS DA TELA DO MOBILE 320PX LANDPAGE*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Baloo 2';
+    margin: 0;
+    
+}
+html{
+    font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  max-width: 1000px;
+  height: 100svh;
+  
+}
+nav {
+    background-color: rgb(238, 102, 62);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    position: relative;
+}
+
+
+nav img{
+   display: block;
+   position: absolute;
+   right: 5px;
+   top: 30px;
+   
+  
+}
+
+#link-menu{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+     width: 100%;
+}
+
+#link-menu a{
+    background-color: white;
+    color: black;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+#link-menu a:hover{
+    background-color: rgb(238, 102, 62);
+    color: white;
+    font-size: 1em;
+    border: 1px solid black;
+}
+
+nav h1 {
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: white;
+    border-radius: 4px;
+    border-bottom: 1px solid gray;
+    font-size: 15pt;
+    width: 100%;
+   
+    
+    
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    max-width:70rem;
+    display: block;
+    margin: 0 auto;
+}
+
+header span {
+    display: block;
+    font-size:4rem; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Hammersmith", sans-serif;
+    padding: 2rem 2rem;
+}
+
+header a {
+    display: block;
+    padding: 12px 12px;
+    color: white;
+    background-color: rgb(238, 102, 62);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    margin: 20px auto;
+}
+
+section {
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+}
+
+h2{
+    background-color: rgb(238, 102, 62);
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 15px;
+}
+
+section img {
+    max-width: 100svw;
+    border: 1px solid black;
+    
+}
+
+section iframe{
+    width: 100svw;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+section p {
+ text-align: center; 
+ padding: 10px 10px;  
+ font-weight: bold;
+ font-size: 1.5rem;
+}
+
+section .fotos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+
+section .fotos img {
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+section h3 {
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(238, 102, 62);
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+section .contaner-cards{
+    display: flex;
+    /* flex-direction: row; */
+    height: 56svh;
+    padding: 1rem 1rem;
+    flex-direction: column;
+    /* overflow: auto;
+    overflow-x: hidden; */
+    
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+}
+
+section .cards{
+     width: 100%;
+     margin-top: 3px;
+     height: 30rem;
+     
+}
+
+section .cards img{
+   max-width: 100svw;
+}
+
+ section .cards ul {
+   list-style: none;
+   margin-left: 30px;
+   display: block;
+   font-weight: bold;
+   text-align: left;
+   font-size: 15pt;
+  }
+
+section .span-cards{
+    color: orangered;
+}
+
+footer {
+    background-color: rgb(238, 102, 62);
+    width: 100%;
+    height: 225px;
+    display: block;
+    margin-top: 0;
+}
+
+footer .rodape{
+    display: block;
+    overflow: auto;
+    padding-top: 12px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+footer p {
+    color: white;
+    font-size: 11pt;
+    text-align: center; 
+    margin-top: 2px; 
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+footer .rede-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid none;
+    flex-direction: column;
+}
+
+footer img {
+    min-width: 48px;
+    min-height: 48px;
+    padding-top: 5px;
+}
+footer span {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    font-size: 15pt;
+}
+
+footer .icones{
+    display: flex;
+}
+
+/*CSS TELA DE LOGIN*/
+
+/*CSS TELA DO CHAT*/
+
+/*PAGINA DE INFORMAÇÕES*/
+.info-contaner{
+    height: 700px;
+    max-width: 600px;
+    background-color: white;
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.info-foto {
+    min-height: 200px;
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info-foto-img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    
+
+}
+
+button{
+    height: 100px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+
+
+/*
+MEDIA PARA TELAS 430PX* LANDPAGE/
+@media  screen and (min-width:430px) {
+    
+    section .contaner-cards{
+          height: 360px;
+       }
+    
+}
+
+
+/* MEDIA PARA TELA DESKTOP LANDPAGE 
+@media screen and (min-width:815px) {
+   
+    footer{
+        background-color: rgb(238, 102, 62);
+        width: 100%;
+        height: 100px;
+        display: block;
+        
+    }
+    section .contaner-cards{
+    
+        display: flex;
+        flex-direction: row;
+        height: 530px;
+        overflow: auto;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow-y: auto;
+       
+        
+    }  
+
+    section .cards{
+        border-radius: 10px; 
+        border: 1px solid black;
+        overflow: auto;
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+       
+     
+     }
+
+     section .cards img{
+        border-radius: 10px;
+        width: 225px;
+        height: 170px; 
+        margin: 10px;
+     }
+
+     section .cards ul{
+        list-style: none;
+        margin-left: 20px;
+        display: block;
+        font-weight: bold;
+        text-align: left;
+        font-size: 10pt;
+       
+     }
+
+     footer .rodape{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        border: 0px solid none;
+        float: left;
+        border: none;
+        width: 600px;
+    }
+
+    footer p {
+        color: white;
+        font-size: 10pt;
+        text-align: left; 
+        margin-top: 10px; 
+        padding-left: 30px;
+        width: 400px;
+        
+        
+    }
+
+    footer .rede-social{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        border: none;
+        flex-direction: column;
+        width: 200px;
+    }
+
+    footer h3 {
+        color: white;
+        font-size: 12pt;
+        text-align: left;
+        margin-top: 10px;
+        font-weight: bold;
+        padding-left: 30px;
+    }
+
+    footer img{
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        
+        
+        
+    }
+
+    footer span {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        font-size: 12pt;
+        width: 200px;
+    }
+
+    nav{
+        background-color: rgb(238, 102, 62);
+        display: flex;
+        
+        overflow: auto;
+        
+    }
+    
+    
+    nav img{
+       display: block;
+       position: absolute;
+       right: 5px;
+       top: 30px;
+      
+    }
+    
+    nav .logo h1 {
+        text-align: left;
+        color: white;
+        font-size: 30pt;
+    }
+    
+    nav a{
+        text-decoration: none;
+        padding: 14px 16px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom: 1px solid gray;
+        font-size: 15pt;
+        width: 100%;
+        display: none;
+        
+    }
+
+   
+    
+    
+*/
+
+ 
+
+
+
+
+
